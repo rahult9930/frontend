@@ -69,9 +69,9 @@ const Page1 = (props) => {
           <Grid item xs={6} md={6}>
             <div style={{ marginLeft: isTabletOrMobile ? 20 : 170, marginTop: isTabletOrMobile ? 20 : 43 }}>
               <span style={{ fontSize: '12px', color: '#6574CF', width: isTabletOrMobile ? "90%" : "40%", marginRight: "4px" }} >
-                <ion-icon name="ellipse-sharp" style={{ marginRight:isTabletOrMobile?"-4%": "-1.5%" }}></ion-icon>
+                <ion-icon name="ellipse-sharp" style={{ marginRight:isTabletOrMobile?"-6%": "-1.5%" }}></ion-icon>
                 <ion-icon name="square-sharp"></ion-icon>
-                <ion-icon name="ellipse-sharp" style={{ marginLeft:isTabletOrMobile?"-4%": "-1.5%" }}></ion-icon>
+                <ion-icon name="ellipse-sharp" style={{ marginLeft:isTabletOrMobile?"-6%": "-1.5%" }}></ion-icon>
               </span>
               <span style={{ fontSize: '12px', marginRight: '4px' }}>
                 <ion-icon name="ellipse-sharp" style={{ color: '#6574CF' }}></ion-icon>
