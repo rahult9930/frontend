@@ -7,7 +7,7 @@ const Page3 = (props) => {
   const isTabletOrMobile = useMediaQuery({ query: '(max-width: 800px)' });
 
   return (
-    <div style={{width:"100vw",height:"100vh"}}>
+    <div >
       <Button variant="text" size="medium" style={{
         marginLeft: "87%",
         marginTop: "3%",
