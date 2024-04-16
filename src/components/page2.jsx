@@ -61,21 +61,52 @@ const Page2 = (props) => {
             </Grid>
           </Box>
           </div>
+          <Box sx={{ flexGrow: 1 }}>
+        <Grid container spacing={2}>
+          <Grid item xs={6} >
+          <div style={{marginLeft:170,marginTop:43}}>
+     {/* <span style={{ fontSize: '18px',marginRight:4 }}><ion-icon name="laptop-sharp" size="medium" style={{
+        color:"#6574CF",
+      }}></ion-icon></span>  */}
+     {/* <span style={{ width: '20px', height: '40px', borderRadius: '8px', overflow: 'hidden', display: 'inline-block', boxShadow: '0px 0px 0px 4px rgba(101, 116, 207, 0.2)', marginRight: '4px' }}>
+    
+     </span> */}
+  
+<span style={{ fontSize: '12px', marginRight: '4px' }}>
+  <ion-icon name="ellipse-sharp" style={{ color: '#6574CF' }}></ion-icon>
+</span>
+<span  style={{ fontSize: '12px', color: '#6574CF',width:"40%", marginRight:"4px"}} >
+     <ion-icon name="ellipse-sharp" style={{marginRight:"-1.5%"}}></ion-icon>
+     <ion-icon name="square-sharp"></ion-icon>
+     <ion-icon name="ellipse-sharp" style={{marginLeft:"-1.5%"}}></ion-icon>
+     </span>
+<span style={{ fontSize: '12px', marginRight: '4px' }}>
+  <ion-icon name="ellipse-sharp" style={{ color: '#6574CF' }}></ion-icon>
+</span>
+
+
+      </div>
+          </Grid>
+          <Grid item xs={6} style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
           <Button variant="contained" size="medium" style={{
-            marginLeft: "87%",
-            marginTop: "3%",
-            textTransform: 'none',
-            backgroundColor:"#6574CF"
-          }} onClick={() => props.setPage(3)}>
-            <Typography style={{
-              fontFamily: 'Open Sans',
-              display: 'flex',
-              alignItems: 'center' // Align items vertically
-            }}>
-              <span>Next</span> {/* Include span inside Typography */}
-              <ion-icon name="arrow-forward-circle-outline" size="small" style={{marginLeft:4}}></ion-icon>
-            </Typography>
-          </Button>
+        marginLeft: "20%",
+        marginTop: "3%",
+        textTransform: 'none',
+        backgroundColor:"#6574CF"
+      }} onClick={() => props.setPage(3)}>
+        <Typography style={{
+          fontFamily: 'Open Sans',
+          display: 'flex',
+          alignItems: 'center' // Align items vertically
+        }}>
+          <span>Next</span> {/* Include span inside Typography */}
+          <ion-icon name="arrow-forward-circle-outline" size="small" style={{marginLeft:4}}></ion-icon>
+        </Typography>
+      </Button>
+          </Grid>
+        </Grid>
+      </Box>
+     
         </div>
     
       )
