@@ -75,9 +75,9 @@ const Page3 = (props) => {
                 <ion-icon name="ellipse-sharp" style={{ color: '#6574CF' }}></ion-icon>
               </span>
               <span style={{ fontSize: '12px', color: '#6574CF', width: isTabletOrMobile ? "90%" : "40%", marginRight: "4px" }} >
-                <ion-icon name="ellipse-sharp" style={{ marginRight:isTabletOrMobile?"-3%": "-1.5%" }}></ion-icon>
+                <ion-icon name="ellipse-sharp" style={{ marginRight:isTabletOrMobile?"-4%": "-1.5%" }}></ion-icon>
                 <ion-icon name="square-sharp"></ion-icon>
-                <ion-icon name="ellipse-sharp" style={{ marginLeft:isTabletOrMobile?"-3%": "-1.5%" }}></ion-icon>
+                <ion-icon name="ellipse-sharp" style={{ marginLeft:isTabletOrMobile?"-4%": "-1.5%" }}></ion-icon>
               </span>
             </div>
           </Grid>
